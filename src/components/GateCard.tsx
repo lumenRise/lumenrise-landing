@@ -14,7 +14,6 @@ export function GateCard({ frame }: { frame: StoryFrame }) {
     <Float order={1} className="gate-card">
       <div className="float-head">
         <span className="min-w-0">
-          <span className="block text-[0.75rem] text-muted-foreground">Sample launch</span>
           <span className="block text-[1.0625rem] font-medium tracking-[-0.01em]">Eligibility policy</span>
         </span>
         <Pill on={frame.rules > 0}>{frame.rules === 0 ? 'No rules yet' : `${frame.rules} of ${STORY_RULES.length} rules on`}</Pill>

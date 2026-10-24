@@ -25,8 +25,8 @@ export function HeroCard() {
         </p>
         <div className="hero-actions">
           <PrimaryCta label="Start a launch" />
-          <a href="https://platform.lumenrise.app/developers" className="group inline-flex items-center gap-2 text-[0.9375rem] font-medium text-panel-fg">
-            Developer Resources <ArrowIcon />
+          <a href="https://docs.lumenrise.app" className="group inline-flex items-center gap-2 text-[0.9375rem] font-medium text-panel-fg">
+            Documentation <ArrowIcon />
           </a>
         </div>
       </div>

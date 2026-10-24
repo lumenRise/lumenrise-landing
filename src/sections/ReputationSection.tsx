@@ -24,7 +24,6 @@ export function ReputationSection() {
           />
           <Scene tone="lime" className="rep-scene">
             <ReputationNotices />
-            <p className="scene-note scene-note-corner">Sample wallets and evidence, for illustration.</p>
           </Scene>
         </div>
         <div className="features features-3">

@@ -24,7 +24,6 @@ export function DevelopersSection() {
             </Feature>
           ))}
         </div>
-        <p className="note">Package, contract, and endpoint names are illustrative until the developer tools are released.</p>
       </div>
     </section>
   )

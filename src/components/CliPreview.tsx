@@ -12,7 +12,6 @@ export function CliPreview() {
       <Float order={0} className="terminal">
         <div className="term-bar">
           <span>Terminal</span>
-          <span className="term-meta">Preview, in development</span>
         </div>
         <pre className="term">
           <CodeLines lines={terminalLines(required, mechanism, eligible)} />

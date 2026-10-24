@@ -43,7 +43,7 @@ export function PresaleFlow({ mechanism, tiers, open }: PresaleFlowProps) {
             </div>
           ))}
         </div>
-        <p className="flow-foot">Sample wallets from the policy below</p>
+        <p className="flow-foot">Wallets from the policy below</p>
       </Float>
     </>
   )

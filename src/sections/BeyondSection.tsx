@@ -50,7 +50,6 @@ export function BeyondSection() {
             </Scene>
           </Feature>
         </div>
-        <p className="note">Sample programs and figures, for illustration.</p>
       </div>
     </section>
   )

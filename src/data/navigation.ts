@@ -20,24 +20,12 @@ export const FOOTER_COLUMNS = [
       ['Explore Launches', 'https://platform.lumenrise.app/launches'],
       ['Create a Launch', 'https://platform.lumenrise.app/create'],
       ['Reputation', 'https://platform.lumenrise.app/reputation'],
-      ['Eligibility', 'https://platform.lumenrise.app/reputation'],
-    ],
-  },
-  {
-    title: 'Developers',
-    links: [
-      ['Developer Resources', 'https://platform.lumenrise.app/developers'],
-      ['CLI', 'https://platform.lumenrise.app/cli'],
-      ['SDK', 'https://platform.lumenrise.app/developers'],
-      ['API', 'https://platform.lumenrise.app/developers'],
-      ['GitHub', null],
     ],
   },
   {
     title: 'Community',
     links: [
-      ['X', null],
-      ['Discord', null],
+      ['X', 'https://x.com/lumenRiseApp'],
     ],
   },
 ] as const

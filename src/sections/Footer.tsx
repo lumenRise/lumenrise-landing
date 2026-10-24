@@ -17,11 +17,7 @@ export function Footer() {
             <ul className="footer-links">
               {column.links.map(([label, href]) => (
                 <li key={label}>
-                  {href ? (
-                    <a href={href} className="rounded-sm transition-colors duration-150 hover:text-foreground">{label}</a>
-                  ) : (
-                    <span className="text-muted-foreground" title="Link coming soon">{label}</span>
-                  )}
+                  <a href={href} className="rounded-sm transition-colors duration-150 hover:text-foreground">{label}</a>
                 </li>
               ))}
             </ul>

@@ -42,10 +42,9 @@ export function EligibilityStory() {
         </div>
         <p className="sr-only">
           An eligibility policy with three rules, account history, Soroban activity, and Sybil resistance, checks five
-          sample wallets. Three pass and receive allocation tiers by the signals they hold; one is filtered for Sybil
+          wallets. Three pass and receive allocation tiers by the signals they hold; one is filtered for Sybil
           risk and one because its account is too new.
         </p>
-        <p className="scene-note scene-note-corner">Sample wallets, for illustration.</p>
       </Scene>
       <StorySteps phase={frame.phase} loop={loop} durations={phases} still={still} />
     </div>

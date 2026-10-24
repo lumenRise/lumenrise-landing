@@ -46,7 +46,7 @@ export function AuctionFlow({ open }: { open: boolean }) {
           ))}
           <path d={`M${clearX} 8V104`} className="clear" />
         </svg>
-        <p className="flow-foot">Bids at or above the line clear · sample bids</p>
+        <p className="flow-foot">Bids at or above the line clear</p>
       </Float>
     </>
   )

@@ -13,7 +13,6 @@ export function HeroLaunches() {
       </div>
       <div className="hero-launches-foot">
         <ChipCta label="Explore All Launches" href="https://platform.lumenrise.app/launches" />
-        <p className="text-[0.75rem] text-muted-foreground">Sample launches, for illustration.</p>
       </div>
     </div>
   )

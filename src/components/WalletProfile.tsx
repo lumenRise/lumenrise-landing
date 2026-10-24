@@ -22,7 +22,7 @@ export function WalletProfile() {
           <button
             type="button"
             className="icon-btn"
-            aria-label="Previous sample wallet"
+            aria-label="Previous wallet"
             onClick={() => setActive((index) => wrapIndex(index - 1, WALLET_COUNT))}
           >
             <ChevronIcon direction="left" />
@@ -33,7 +33,7 @@ export function WalletProfile() {
           <button
             type="button"
             className="icon-btn"
-            aria-label="Next sample wallet"
+            aria-label="Next wallet"
             onClick={() => setActive((index) => wrapIndex(index + 1, WALLET_COUNT))}
           >
             <ChevronIcon direction="right" />

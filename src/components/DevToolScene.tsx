@@ -20,7 +20,6 @@ export function DevToolScene({ tool }: { tool: DevTool }) {
       <Float order={0} className="code-card">
         <div className="term-bar">
           <span className="font-mono-code">{tool.file}</span>
-          <span className="term-meta">Preview</span>
         </div>
         <pre className="code">
           <CodeLines lines={devCodeLines(tool.id, required, address)} />
