@@ -9,7 +9,7 @@ export function Footer() {
           <a href="/" className="-m-1 self-start rounded-md p-1" aria-label="LumenRise home">
             <Logo size="sm" />
           </a>
-          <p className="max-w-[28ch] text-[0.875rem] text-muted-foreground">Launch &amp; Reputation Infrastructure on Stellar.</p>
+          <p className="max-w-[28ch] text-[0.875rem] text-muted-foreground">Launch &amp; Reputation Infrastructure on Stellar and Base.</p>
         </div>
         {FOOTER_COLUMNS.map((column) => (
           <nav key={column.title} aria-label={column.title}>

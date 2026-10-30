@@ -11,7 +11,7 @@ export const DEV_TOOLS: readonly DevTool[] = [
   {
     id: 'soroban',
     title: 'Onchain Verification',
-    text: 'Bring eligibility verification to Soroban, allowing smart contracts to use reputation-based conditions.',
+    text: 'Bring eligibility verification onchain, allowing Soroban contracts on Stellar and smart contracts on Base to use reputation-based conditions.',
     file: 'contract.rs',
     tone: 'olive',
   },
