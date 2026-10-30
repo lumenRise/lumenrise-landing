@@ -15,7 +15,7 @@ export function BeyondSection() {
           eyebrow="More Than a Launchpad"
           title="Reputation that goes further."
           lede={[
-            'The same infrastructure that powers launch eligibility can support participation, rewards, and access across the Stellar ecosystem.',
+            'The same infrastructure that powers launch eligibility can support participation, rewards, and access across the Stellar and Base ecosystems.',
           ]}
           cta={{ label: 'Build with Reputation', href: 'https://platform.lumenrise.app/developers' }}
         />

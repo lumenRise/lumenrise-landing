@@ -3,6 +3,7 @@ import { HERO_LINKS } from '../data/navigation.ts'
 import { useEngravedField } from '../hooks/useEngravedField.ts'
 import { usePointerLean } from '../hooks/usePointerLean.ts'
 import { heroFieldFade } from '../lib/hero-field-fade.ts'
+import { HeroNetworks } from './HeroNetworks.tsx'
 import { ArrowIcon } from './icons/ArrowIcon.tsx'
 import { PrimaryCta } from './PrimaryCta.tsx'
 
@@ -15,8 +16,9 @@ export function HeroCard() {
     <div ref={ref} className="hero-card">
       <canvas ref={canvasRef} aria-hidden="true" />
       <div className="hero-copy">
+        <HeroNetworks />
         <h1 id="hero-title" className="hero-title">
-          <span className="block text-balance">Launch tokens on Stellar.</span>
+          <span className="block text-balance">Launch tokens on Stellar and&nbsp;Base.</span>
           <span className="block text-balance hero-title-muted">Let reputation decide who&nbsp;takes&nbsp;part.</span>
         </h1>
         <p className="hero-lede">

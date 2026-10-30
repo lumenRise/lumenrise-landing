@@ -37,7 +37,7 @@ export function ReputationSection() {
           </Feature>
           <Feature
             title="Connected Signals"
-            text="Bring together data from Stellar, GitHub, social platforms, and other supported sources."
+            text="Bring together data from Stellar, Base, GitHub, social platforms, and other supported sources."
           >
             <Scene tone="cream" className="feature-scene">
               <SourceList />
